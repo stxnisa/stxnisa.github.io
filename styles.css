@@ -94,20 +94,19 @@ section h2 {
 }
 
 /* Gallery Styles */
-.gallery {
-    display: flex;
-    overflow-x: auto;
-    padding: 10px 0;
+.swiper-container {
+    width: 100%;
+    padding: 20px 0;
 }
 
-.gallery-item {
-    flex: 0 0 auto;
-    width: 200px;
-    margin-right: 20px;
+.swiper-slide {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
 }
 
-.gallery-item img {
+.swiper-slide img {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -145,13 +144,6 @@ footer {
     header h1 {
         float: none;
         margin-bottom: 10px;
-    }
-    .gallery {
-        flex-direction: column;
-    }
-    .gallery-item {
-        width: 100%;
-        margin-bottom: 20px;
     }
     .footer-container {
         flex-direction: column;
