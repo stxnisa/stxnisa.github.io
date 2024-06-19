@@ -101,7 +101,7 @@ section h2 {
 
 .swiper-slide {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
 }
@@ -109,6 +109,7 @@ section h2 {
 .swiper-slide img {
     width: 100%;
     height: auto;
+    max-height: 150px; /* Adjust the height to make it smaller */
     border-radius: 10px;
 }
 
@@ -166,5 +167,8 @@ footer {
     .profile-pic {
         width: 100px;
         height: 100px;
+    }
+    .swiper-slide img {
+        max-height: 100px; /* Further reduce height for smaller screens */
     }
 }
