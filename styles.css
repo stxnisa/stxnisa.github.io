@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSbpLWrfhPQ_SBfkxRMXXo5megPvyy9aN6ew&s') no-repeat center center fixed;
+    background: url('assets/images/background.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     position: relative;
