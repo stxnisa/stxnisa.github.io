@@ -78,6 +78,13 @@ section h2 {
     margin-bottom: 20px;
 }
 
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .profile-pic {
     display: block;
     margin: 0 auto 20px;
@@ -118,4 +125,54 @@ footer {
     color: #fff;
     background-color: #333;
     text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    header nav {
+        float: none;
+        margin-top: 15px;
+    }
+    header h1 {
+        float: none;
+        margin-bottom: 10px;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+    .gallery-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header li {
+        padding: 10px 0;
+    }
+    section h2 {
+        font-size: 1.5em;
+    }
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
 }
